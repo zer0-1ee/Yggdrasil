@@ -51,7 +51,7 @@
 
             orient: 'BT',
 
-            expandAndCollapse: true,
+            expandAndCollapse: false,
 
             label: {
               position: 'bottom',
@@ -74,7 +74,7 @@
         ]
       });
     });
-    myChart.on('click', 'series.tree.label', function (params) {
+    myChart.on('click', function (params) {
       window.open(encodeURIComponent(params.name));
     });
   </script>
