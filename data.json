@@ -1,5 +1,5 @@
 {
-    "name": "果树",
+    "name": "世界树",
     "value": "百科",
     "children": [
         {
@@ -27,56 +27,16 @@
                     ]
                 },
                 {
-                    "name": "逻辑",
-                    "children": [
-                        {
-                            "name": "BetweennessCentrality",
-                            "value": 3534
-                        },
-                        {
-                            "name": "LinkDistance",
-                            "value": 5731
-                        },
-                        {
-                            "name": "MaxFlowMinCut",
-                            "value": 7840
-                        },
-                        {
-                            "name": "ShortestPaths",
-                            "value": 5914
-                        },
-                        {
-                            "name": "SpanningTree",
-                            "value": 3416
-                        }
-                    ]
+                    "name": "逻辑"
                 },
                 {
-                    "name": "知识论",
-                    "children": [
-                        {
-                            "name": "AspectRatioBanker",
-                            "value": 7074
-                        }
-                    ]
+                    "name": "知识论"
                 },
                 {
-                    "name": "伦理",
-                    "children": [
-                        {
-                            "name": "AspectRatioBanker",
-                            "value": 7074
-                        }
-                    ]
+                    "name": "伦理"
                 },
                 {
-                    "name": "美学",
-                    "children": [
-                        {
-                            "name": "AspectRatioBanker",
-                            "value": 7074
-                        }
-                    ]
+                    "name": "美学"
                 }
             ]
         },
@@ -84,28 +44,22 @@
             "name": "定律",
             "children": [
                 {
-                    "name": "规则",
-                    "value": 17010
+                    "name": "规则"
                 },
                 {
                     "name": "自然",
-                    "value": 5842,
                     "children": [
                         {
-                            "name": "物理",
-                            "value": 1983
+                            "name": "物理"
                         },
                         {
-                            "name": "化学",
-                            "value": 2047
+                            "name": "化学"
                         },
                         {
-                            "name": "太空",
-                            "value": 1375
+                            "name": "太空"
                         },
                         {
-                            "name": "星球",
-                            "value": 8746
+                            "name": "星球"
                         }
                     ]
                 },
@@ -118,33 +72,10 @@
             "name": "演绎",
             "children": [
                 {
-                    "name": "人生",
-                    "children": [
-                        {
-                            "name": "Converters",
-                            "value": 721
-                        },
-                        {
-                            "name": "DelimitedTextConverter",
-                            "value": 4294
-                        },
-                        {
-                            "name": "GraphMLConverter",
-                            "value": 9800
-                        },
-                        {
-                            "name": "IDataConverter",
-                            "value": 1314
-                        },
-                        {
-                            "name": "JSONConverter",
-                            "value": 2220
-                        }
-                    ]
+                    "name": "人生"
                 },
                 {
-                    "name": "社会",
-                    "value": 1759
+                    "name": "社会"
                 }
             ]
         }
