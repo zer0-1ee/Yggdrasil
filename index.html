@@ -42,40 +42,21 @@
 
             data: [data],
 
-            left: '2%',
-            right: '2%',
-            top: '20%',
-            bottom: '8%',
+            top: '18%',
+            bottom: '14%',
+
+            layout: 'radial',
 
             symbol: 'emptyCircle',
 
-            orient: 'BT',
+            symbolSize: 7,
 
-            expandAndCollapse: false,
-
-            label: {
-              position: 'bottom',
-              rotate: 0,
-              verticalAlign: 'middle',
-              align: 'right'
-            },
-
-            leaves: {
-              label: {
-                position: 'top',
-                rotate: 0,
-                verticalAlign: 'middle',
-                align: 'left'
-              }
-            },
+            initialTreeDepth: 3,
 
             animationDurationUpdate: 750
           }
         ]
       });
-    });
-    myChart.on('click', function (params) {
-      window.open(encodeURIComponent(params.name));
     });
   </script>
 </body>
